@@ -48,3 +48,15 @@ html {
 .text-fade-spread-blur {
     animation: fadeSpreadBlur 8s forwards;
 }
+
+@media (max-width: 768px) {
+    .demo {
+        background-size: cover; /* Makes the background image fit within the container, so it's all visible but might be smaller */
+        min-width: 300px;
+        background-image: url('moon2.jpg');
+    }
+
+    .text {
+        font-size: 1.2em; /* Increases the font size for smaller devices */
+    }
+}
