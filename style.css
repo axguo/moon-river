@@ -51,9 +51,8 @@ html {
 
 @media (max-width: 768px) {
     .demo {
-        background-size: cover; /* Makes the background image fit within the container, so it's all visible but might be smaller */
-        min-width: 300px;
-        background-image: url('moon2.jpg');
+        min-width: none;
+        /* background-image: url('moon2.jpg'); */
     }
 
     .text {
