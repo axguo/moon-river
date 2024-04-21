@@ -48,14 +48,3 @@ html {
 .text-fade-spread-blur {
     animation: fadeSpreadBlur 8s forwards;
 }
-
-@media (max-width: 768px) {
-    .demo {
-        min-width: none;
-        /* background-image: url('moon2.jpg'); */
-    }
-
-    .text {
-        font-size: 1.2em; /* Increases the font size for smaller devices */
-    }
-}
