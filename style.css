@@ -48,3 +48,9 @@ html {
 .text-fade-spread-blur {
     animation: fadeSpreadBlur 8s forwards;
 }
+
+@media (max-width: 768px) {
+    .demo {
+        height: 300px; /* Example height adjustment for mobile devices */
+    }
+}
